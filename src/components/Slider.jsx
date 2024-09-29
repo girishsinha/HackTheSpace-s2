@@ -1,19 +1,19 @@
-import React from 'react';
-import "../styles/Slider.css"
+import React from "react";
+import "../styles/Slider.css";
 
 const Slider = ({ activeTab, onTabChange }) => {
   return (
     <div className="slider-container sc2">
       <div className="tabs">
         <button
-          className={activeTab === 'organiser' ? 'active' : ''}
-          onClick={() => onTabChange('organiser')}
+          className={activeTab === "organiser" ? "active" : ""}
+          onClick={() => onTabChange("organiser")}
         >
-          Organiser
+          Organizers
         </button>
         <button
-          className={activeTab === 'coreTeam' ? 'active' : ''}
-          onClick={() => onTabChange('coreTeam')}
+          className={activeTab === "coreTeam" ? "active" : ""}
+          onClick={() => onTabChange("coreTeam")}
         >
           Core Team
         </button>
